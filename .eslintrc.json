@@ -1,5 +1,6 @@
 {
   "extends": "next/core-web-vitals",
+  "plugins": ["simple-import-sort"],
   "rules": {
     "semi": ["error", "never"],
     "quotes": ["error", "single"],
@@ -11,6 +12,8 @@
         "objectsInObjects": true
       }
     ],
-    "block-spacing": ["error", "always"]
+    "block-spacing": ["error", "always"],
+    "simple-import-sort/imports": "error",
+    "simple-import-sort/exports": "error"
   }
 }
