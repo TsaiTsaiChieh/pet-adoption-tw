@@ -1,7 +1,7 @@
 'use client'
 import styled from 'styled-components'
 
-import { colors } from '../constants/styles'
+import { colors } from '../../constants/styles'
 
 export const Container = styled.div`
   width: 100vw;

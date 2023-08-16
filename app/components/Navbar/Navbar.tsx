@@ -1,7 +1,8 @@
 'use client'
 import { MdPets } from 'react-icons/md'
-import { colors } from '../constants/styles'
-import { Container, LogoWrap, Title } from '../styled/Navbar'
+
+import { colors } from '../../constants/styles'
+import { Container, LogoWrap, Title } from './Navbar.styled'
 
 const Navbar = () => {
 
